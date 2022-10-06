@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/rahmadsubakti/Stats-preview-card-component---FrontendMentor)
-- Live Site URL: [link](https://rahmad-subakti-stats-preview-card-component-frontend-mentor.vercel.app/)
+- Live Site URL: [link](https://your-live-site-url.com)
 
 ## My process
 
