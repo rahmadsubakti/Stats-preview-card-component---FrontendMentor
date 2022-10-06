@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" role="main">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -16,17 +16,18 @@
 </head>
 <body>
 
-  <figure class="card" role="figure">
-    <picture class="card-banner">
+  <figure class="card" role="main">
+    <div class="card-banner">
       <div class="cover"></div>
-      <source media="(max-width: 375px)" srcset="images/image-header-mobile.jpg">
-      <img src="images/image-header-desktop.jpg" alt="image-header-desktop.jpg" srcset="images/image-header-desktop.jpg">
-    </picture>
-
+      <picture class="card-banner">
+        <source media="(max-width: 375px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="image-header-desktop.jpg" srcset="images/image-header-desktop.jpg">
+      </picture>
+    </div>
     <section class="card-article">
       <h2 class="card-title white-text">
         Get <span class="highlight-text">insights</span> that help your business grow.
-      </h1>
+      </h2>
       <article class="card-description transparent-white-text">
         Discover the benefits of data analytics and make better decisions regarding revenue, customer 
   experience, and overall efficiency.
@@ -52,7 +53,7 @@
     
   </figure>   
 
-  <div class="attribution" role="contentinfo">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/rahmadsubakti">Rahmad Subakti</a>.
   </div>

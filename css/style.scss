@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-@import 'media';
 
 $very-dark-blue: hsl(233, 47%, 7%);
 $dark-desaturated-blue: hsl(244, 38%, 16%);
@@ -117,8 +116,47 @@ body {
                 }
             }
         }
-    }
-
-    
+    }    
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        height: 956px;
+        padding: 88px 6.4vw;
+    }
+
+    .card {
+        flex-direction: column;
+
+        .card-banner {
+            img {
+                width: 100%;
+            }
+        }
+
+        .card-article {
+            padding: 3rem 2rem;
+            text-align: center;
+            
+
+            .card-title {
+                font-size: 1.8rem;
+                line-height: 2rem;
+                margin-bottom: 1.3rem;
+            }
+
+            .card-description {
+                margin-bottom: 2.7rem;
+            }
+
+            .card-stats {
+                flex-direction: column;
+                padding: 0;
+
+                .stat {
+                    margin-bottom: 2.2rem;
+                }
+            }
+        }        
+    }
+}
