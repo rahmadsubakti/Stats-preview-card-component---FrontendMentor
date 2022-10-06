@@ -87,16 +87,17 @@ body {
   line-height: 0;
 }
 .card .card-banner .cover {
+  display: inline;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: hsl(277deg, 64%, 61%);
+  background: hsl(277deg, 86%, 31%);
   opacity: 0.5;
 }
 .card .card-article {
-  padding: 5rem 7rem 4.33rem 4.66rem;
+  padding: 5rem 8.5rem 4.33rem 4.66rem;
   font-family: "Inter", sans-serif;
 }
 .card .card-article .card-title {
