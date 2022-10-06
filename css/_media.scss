@@ -1,0 +1,41 @@
+@media screen and (max-width: 375px) {
+    body {
+        height: 956px;
+        padding: 88px 6.4vw;
+    }
+
+    .card {
+        flex-direction: column;
+
+        .card-banner {
+            img {
+                width: 100%;
+            }
+        }
+
+        .card-article {
+            padding: 3rem 2rem;
+            text-align: center;
+            
+
+            .card-title {
+                font-size: 1.8rem;
+                line-height: 2rem;
+                margin-bottom: 1.3rem;
+            }
+
+            .card-description {
+                margin-bottom: 2.7rem;
+            }
+
+            .card-stats {
+                flex-direction: column;
+                padding: 0;
+
+                .stat {
+                    margin-bottom: 2.2rem;
+                }
+            }
+        }        
+    }
+}
